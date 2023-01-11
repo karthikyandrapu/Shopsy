@@ -1,0 +1,330 @@
+/*---------------------------Logo-----------------------------------*/
+.logo a {
+  text-decoration: none;
+}
+.logo {
+  transition-duration: 1s;
+  padding-left: 10px;
+}
+
+/*---------------------------Search---------------------------------*/
+.search a {
+  display: flex;
+}
+.search {
+  display: flex;
+  position: relative;
+}
+.search a {
+    display: flex;
+    flex-wrap: nowrap;
+  }
+#input {
+  height: 30px;
+  width: 300px;
+  text-decoration: none;
+  border: 0px;
+  padding: 5px;
+}
+ #input {
+    width: 400px;
+    flex-shrink: 2;
+  }
+
+/*---------------------------Image Sliding---------------------------*/
+.mySlides {display:none;}
+.slide-content{margin-left:auto;margin-right:auto}
+.slide-content{max-width:980px}
+.slide-section{margin-top:16px!important;margin-bottom:16px!important}
+
+/*----------------------Individual Products----------------------------*/
+.section .container {
+  display: flex;
+  width: 100%;
+  height: max-content;
+  flex-wrap: wrap;
+  justify-content: center;
+  margin: 10px auto;
+}
+.section .container .items {
+  margin: 10px;
+  width: 200px;
+  height: 400px;
+  background-color: white;
+  border: 2.5px solid black;
+  border-radius: 12px;
+}
+.section .container .items .product {
+  text-align: center;
+  height: 30px;
+  padding-top: 2px;
+  font-size: 120%;
+  color: white;
+  background-color:#000000;
+}
+.section .container .items .price {
+  text-align: center;
+  font-size: 140%;
+  color: rgb(255, 0, 0);
+  font-weight: bold;
+}
+.section .container .items .buysection {
+  text-align: center;
+  font-weight: bold;
+  color: blue;
+  font-size: 150%;
+}
+.section .container .items .img img {
+  width: 200px;
+  height: 200px;
+  margin: 0;
+  padding: 0;
+  border-radius: 12px;
+  transition-duration: 0.8s;
+}
+.section .container .items .img {
+  overflow: hidden;
+  margin: 0;
+}
+.section .container .items .buy {
+  color: white;
+  padding: 5px 15px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 18px;
+  font-family: Algerian;
+  font-weight: 500;
+  transition-duration: 0.4s;
+  cursor: pointer;
+}
+.section .container .items .buy {
+  background-color: white; 
+  color: black; 
+  border: 2px solid #008CBA;
+}
+.section .container .items .buy:hover {
+  background-color: #008CBA;
+  color: white;
+}
+.items {
+  overflow: hidden;
+}
+
+/*----------------------Category Products----------------------*/
+.categories {
+  text-align: center;
+  font-weight: bold;
+  font-size: 200%;
+  font-family: Georgia, serif;
+  background-color: black;
+  height: 60px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  color: white;
+  margin: 0;
+}
+.cat div {
+  margin: 10px;
+}
+.section .container .catproducts {
+  margin: 10px;
+  width: 200px;
+  height: 250px;
+  background-color: white;
+  border: 2.5px solid black;
+  border-radius: 12px;
+}
+.section .container .catproducts .checkout {
+  padding: 10px;
+  font-weight: bold;
+  color: rgb(0,0,0);
+  font-size: 100%;
+  text-align: center;
+}
+.section .container .catproducts .img img {
+  width: 200px;
+  height: 200px;
+  margin: 0;
+  padding: 0;
+  border-radius: 12px;
+  transition-duration: 0.8s;
+}
+.section .container .catproducts .img {
+  overflow: hidden;
+  margin: 0;
+}
+.section .container .catproducts:hover .img img {
+  transform: scale(1.2);
+  transition-duration: 0.8s;
+  border-radius: 12px;
+}
+.section .container {
+  display: flex;
+  width: 100%;
+  height: max-content;
+  flex-wrap: wrap;
+  justify-content: center;
+  margin: 10px auto;
+}
+.section .container .items {
+  margin: 10px;
+  width: 200px;
+  height: 300px;
+  background-color: white;
+  border: 2.5px solid black;
+  border-radius: 12px;
+}
+.section .container .items .name {
+  text-align: center;
+  background-color:#000000;
+  height: 25px;
+  padding-top: 4px;
+  color: white;
+  margin: 0;
+}
+.section .container .items .price {
+  text-align: center;
+  font-size: 140%;
+  color: rgb(255, 0, 0);
+  font-weight: bold;
+}
+.section .container .items .info {
+  text-align: center;
+  font-weight: bold;
+  color: blue;
+  font-size: 150%;
+}
+.section .container .items .img img {
+  width: 200px;
+  height: 200px;
+  margin: 0;
+  padding: 0;
+  border-radius: 12px;
+  transition-duration: 0.8s;
+}
+.section .container .items .img {
+  overflow: hidden;
+  margin: 0;
+}
+
+/*-----------------------Header-----------------------------*/
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+header {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  height: 60px;
+  width: 100%;
+  background: black;
+}
+.heading ul {
+  display: flex;
+}
+.heading ul li {
+  list-style: none;
+}
+.heading ul li a {
+  margin: 5px;
+  text-decoration: none;
+  color: black;
+  font-weight: 500;
+  position: relative;
+  color: white;
+  margin: 2px 14px;
+  font-size: 18px;
+  transition-duration: 1s;
+}
+.heading ul li a:active {
+  color: red;
+}
+.heading ul li a:hover {
+  color: rgb(243, 168, 7);
+  transition-duration: 1s;
+}
+.heading ul li a::before {
+  content: "";
+  height: 2px;
+  width: 0px;
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  background-color: white;
+  transition-duration: 1s;
+}
+.heading ul li a:hover::before {
+  width: 100%;
+  transition-duration: 1s;
+  background-color: rgb(243, 168, 7);
+}
+header a ion-icon {
+  position: relative;
+  right: 3px;
+}
+.heading1 {
+  opacity: 0;
+}
+  .heading1 {
+    opacity: 1;
+    position: relative;
+    bottom: 8px;
+  }
+  .heading1 .ham {
+    background-color: black;
+    color: white;
+  }
+  header {
+    height: 100px;
+  }
+
+/*--------------------------Footer----------------------------*/
+footer {
+  display: flex;
+  flex-direction: column;
+  background-color: black;
+  align-items: center;
+  color: white;
+}
+
+.footer1 {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  color: white;
+  margin-top: 15px;
+}
+.footer2 {
+  display: flex;
+  width: 100%;
+  justify-content: space-evenly;
+  align-items: center;
+  text-decoration: none;
+  flex-wrap: wrap;
+}
+.footer2 .heading {
+  font-weight: 900;
+  font-size: 18px;
+}
+.footer3 {
+  margin-top: 30px;
+  margin-bottom: 20px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+.footer2 .heading:hover {
+  color: rgb(243, 168, 7);
+}
+.footer2 .div:hover {
+  transform: scale(1.05);
+}
+.footer3 h4 {
+  margin: 0 10px;
+}
+.footer2 div {
+  margin: 10px;
+}

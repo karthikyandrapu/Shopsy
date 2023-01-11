@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+<head>
+  <meta charset="utf-8">
+  <meta name="description"
+    content="On Shopzy you can Shop Online for Men & Women Clothing, Kid's Fashion, Latest Apparel, Accessories, Luxury Watches, & Much More at great prices! Express Delivery for all Prepaid orders. Multiple Payment Options.">
+  <link rel="icon" href="assets\images\favicon.ico">
+  <link rel="stylesheet" href="styles.css">
+  <title>Shopzy</title>
+</head>
+<body>
+  <header>
+    <div class="logo"><img src="assets\images\logo.jpg" alt="logo"></div>
+    <div class="search">
+      <a href=""><input type="text" placeholder="Search Products" id="input">
+      </a>
+    </div>
+    <div class="heading">
+      <ul>
+        <li><a href="index.html">HOME</a></li>
+        <li><a href="products.html">SHOP</a></li>
+        <li><a href="products.html">CATALOGUE</a></li>
+        <li><a href="contact.html">CONTACT US</a></li>
+      </ul>
+    </div>
+  </header>
+  <section>
+    <br>
+<center><div class="slide-content slide-section" style="max-width:800px">
+  <img class="mySlides" src="2.webp" style="width:100%">
+  <img class="mySlides" src="1.jpg" style="width:100%">
+  <img class="mySlides" src="8.jpg" style="width:100%">
+  <img class="mySlides" src="3.jpg" style="width:100%">
+  <img class="mySlides" src="4.webp" style="width:100%">
+  <img class="mySlides" src="5.webp" style="width:100%">
+  <img class="mySlides" src="6.webp" style="width:100%">
+  <img class="mySlides" src="7.webp" style="width:100%">
+  <img class="mySlides" src="9.webp" style="width:100%">
+  <img class="mySlides" src="10.jpg" style="width:100%">
+</div></center>
+<br>
+<h1 class="categories">CATEGORIES TO BUY</h1>
+<div class="section">
+        <div class="container">
+          <div class="catproducts">
+            <div class="img img1"><a href="men.html"><img src="assets\images\men.png" alt=""></a></div>
+            <div class="checkout"><a href="men.html"  style="color:red">Men's Fashion</a></div>
+          </div>
+          <div class="catproducts">
+            <div class="img img1"><a href="women.html"><img src="assets\images\women.png" alt=""></a></div>
+            <div class="checkout"><a href="women.html"  style="color:red">Women's Fashion</a></div>
+          </div>
+          <div class="catproducts">
+            <div class="img img1"><a href="kids.html"><img src="assets\images\kids.png" alt=""></a></div>
+            <div class="checkout"><a href="kids.html"  style="color:red">Kid's Fashion</a></div>
+          </div>
+          <div class="catproducts">
+            <div class="img img1"><a href="watch.html"><img src="assets\images\watch.png" alt=""></a></div>
+            <div class="checkout"><a href="watch.html"  style="color:red">Watches</a></div>
+          </div>          
+          <div class="catproducts">
+            <div class="img img1"><a href="footwear.html"><img src="assets\images\shoe.webp" alt=""></a></div>
+            <div class="checkout"><a href="footwear.html"  style="color:red">Footwear</a></div>
+          </div>
+          <div class="catproducts">
+            <div class="img img1"><a href="books.html"><img src="assets\images\book.jpg" alt=""></a></div>
+            <div class="checkout"><a href="books.html"  style="color:red">Books</a></div>
+          </div>
+          <div class="catproducts">
+            <div class="img img1"><a href="mobile.html"><img src="assets\images\mobile.png" alt=""></a></div>
+            <div class="checkout"><a href="mobile.html"  style="color:red">Mobiles</a></div>
+          </div>
+          <div class="catproducts">
+            <div class="img img1"><a href="laptop.html"><img src="assets\images\laptop.jpg" alt=""></a></div>
+            <div class="checkout"><a href="laptop.html"  style="color:red">Latops & Computers</a></div>
+          </div>
+          <div class="catproducts">
+            <div class="img img1"><a href="tv.html"><img src="assets\images\tv.webp" alt=""></a></div>
+            <div class="checkout"><a href="tv.html"  style="color:red">Televisions</a></div>
+          </div>
+          <div class="catproducts">
+            <div class="img img1"><a href="appliances.html"><img src="assets\images\appliances.png" alt=""></a></div>
+            <div class="checkout"><a href="appliances.html"  style="color:red">Electronic Appliances</a></div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <footer>
+    <div class="footer2">
+      <div class="Details">
+        <div class="heading">SRKR Engineering College, Bhimavaram, <br>
+        West Godavari, Andhra Pradesh</div>
+        <div class="heading">reply@shopzy.com</div>
+        <div class="heading"><a href="tel: +91-9876-543210">+91-9876-543210</a></div>
+      </div>
+      <div class="Company">
+        <div class="heading">Homepage</div>
+        <div class="heading">About Us</div>
+        <div class="heading">Help</div>
+        <div class="heading">Contact Us</div>
+      </div>
+      <div class="Get Help">
+        <div class="heading">Help</div>
+        <div class="heading">FAQ's</div>
+        <div class="heading">Shipping</div>
+        <div class="heading">Tracking ID</div>
+      </div>
+    </div>
+    <div class="footer3" style="text-align: center;">Developed by V.S.S.SAGAR & Y.DURGA KARTHIK<br>Copyright © 2022 Shopzy.com</div>
+  </footer>
+  <script>
+/*--------Image Sliding Script--------*/
+  var myIndex = 0;
+carousel();
+function carousel() {
+  var i;
+  var x = document.getElementsByClassName("mySlides");
+  for (i = 0; i < x.length; i++) {
+    x[i].style.display = "none";  
+  }
+  myIndex++;
+  if (myIndex > x.length) {myIndex = 1}    
+  x[myIndex-1].style.display = "block";  
+  setTimeout(carousel, 2000); // Change image every 2 seconds
+}
+</script>
+</body>
+</html>
