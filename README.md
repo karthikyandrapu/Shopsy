@@ -1,3 +1,1 @@
-Shopsy Online Shopping Website
-
-DEMO: https://karthikyandrapu.github.io/Shopsy/
+Shopsy Online Shopping Website: https://karthikyandrapu.github.io/Shopsy/
